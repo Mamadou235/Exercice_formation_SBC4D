@@ -1,0 +1,105 @@
+ {
+    "name": "HDR_2007-2008Table_26_modifie",
+    "description": "A csv file for the data-wrangling-and-validation-courses",
+    "fields": [
+        {
+            "name": "HDI rank ",
+            "type": "integer",
+            "description": "attribute a number to each contry."
+        },
+        {
+            "name": "Country ",
+            "type": "string",
+            "description": "contain the names of the countries and often names of cities "
+        },
+        {
+            "name": "Internally displaced peoplea(thousands)2006e   ",
+            "type": "number",
+            "description": "The Internally displaced people around the year of 2006."
+        },
+        {
+            "name": "Reference 1 ",
+            "type": "string",
+            "description": "Refer to the first column without a name. "
+        },
+        {
+            "name": "Refugees By country of asylum(thousands)2006e ",
+            "type": "number",
+            "description": "The real an estimation nummber of reyfugees by country of asylum."
+        },
+        {
+            "name": "Reference 2 ",
+            "type": "string",
+            "description": "Refer to the second column without a name."
+        },
+        {
+            "name": "Refugees By country of originc(thousands) 2006e ",
+            "type": "number",
+            "description": "The real an estimation nummber of reyfugees by country of originc."
+        },
+		{
+            "name": "Reference 3 ",
+            "type": "string",
+            "description": "Refer to the third column without a name."
+        },
+		{
+            "name": "Conventional arms transfersb(1990 prices) Imports (US$ millions) 1996 ",
+            "type": "number",
+            "description": "Conventional arms transfers by importation around the uear of 1996."
+        },
+		{
+            "name": "Reference 4 ",
+            "type": "string",
+            "description": "Refer to the thorth column without a name."
+        },
+		{
+            "name": "Conventional arms transfersb(1990 prices) Imports (US$ millions)2006 ",
+            "type": "number",
+            "description": "Conventional arms transfers by importation around the year of 2006."
+        },
+		{
+            "name": "Reference 5 ",
+            "type": "string",
+            "description": "Refer to the column 5 without a name."
+        },
+		{
+            "name": "Conventional arms Exports US$ millions  2006 ",
+            "type": "number",
+            "description": "Conventional arms exports by around the year of 2006."
+        },
+		{
+            "name": "Reference 6 ",
+            "type": "string",
+            "description": "Refer to the column 6 without a name."
+        },
+		{
+            "name": "Conventional arms Exports Shared(%)  2002-06 ",
+            "type": "number",
+            "description": "Conventional arms exports by around the year between 2002 and 2006."
+        },
+		{
+            "name": "Total armed forces Thousands2007 ",
+            "type": "number",
+            "description": "Total armed forces Thousands 2007 ."
+        },
+		{
+            "name": "Reference 7 ",
+            "type": "string",
+            "description": "Refer to the column 7 without a name."
+        },
+		{
+            "name": "Total armed forces Index (1985 = 100)2007 ",
+            "type": "number",
+            "description": "Total armed forces for Index (1985 = 100) 2007 ."
+        },
+		{
+            "name": "HDI category ",
+            "type": "string",
+            "description": "Refer to the level of human developpment of the countries .",
+			"constraints": {
+                "enum": ["HIGH HUMAN DEVELOPMENT ", "MEDIUM HUMAN DEVELOPMENT ", "LOW HUMAN DEVELOPMENT "]
+			}
+        },  
+    ],
+    "missingValues": ["(.)"," ",".."]
+}
