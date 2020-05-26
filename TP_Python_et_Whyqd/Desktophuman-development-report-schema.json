@@ -1,0 +1,103 @@
+{
+    "created": "2020-05-26",
+    "description": "calculated on the basis of data on arms transfers from SIPRI 2007a.",
+    "fields": [
+        {
+            "constraints": {
+                "required": true
+            },
+            "description": "Official country names.",
+            "name": "country_name",
+            "title": "Country Name",
+            "type": "string"
+        },
+        {
+            "description": "attribute a number to each contry.",
+            "name": "hdi_rank_",
+            "type": "integer"
+        },
+        {
+            "description": "The Internally displaced people around the year of 2006.",
+            "name": "internally_displaced_peoplea(thousands)2006e___",
+            "type": "number"
+        },
+        {
+            "description": "Refer to the first column without a name. ",
+            "name": "reference_1_",
+            "type": "string"
+        },
+        {
+            "description": "The real an estimation nummber of reyfugees by country of asylum.",
+            "name": "refugees_by_country_of_asylum(thousands)2006e_",
+            "type": "number"
+        },
+        {
+            "description": "Refer to the second column without a name.",
+            "name": "reference_2_",
+            "type": "string"
+        },
+        {
+            "description": "The real an estimation nummber of reyfugees by country of originc.",
+            "name": "refugees_by_country_of_originc(thousands)_2006e_",
+            "type": "number"
+        },
+        {
+            "description": "Refer to the third column without a name.",
+            "name": "reference_3_",
+            "type": "string"
+        },
+        {
+            "description": "Conventional arms transfers by importation around the uear of 1996.",
+            "name": "conventional_arms_transfersb(1990_prices)_imports_(us$_millions)_1996_",
+            "type": "number"
+        },
+        {
+            "description": "Refer to the thorth column without a name.",
+            "name": "reference_4_",
+            "type": "string"
+        },
+        {
+            "description": "Conventional arms transfers by importation around the year of 2006.",
+            "name": "conventional_arms_transfersb(1990_prices)_imports_(us$_millions)2006_",
+            "type": "number"
+        },
+        {
+            "description": "Refer to the column 5 without a name.",
+            "name": "reference_5_",
+            "type": "string"
+        },
+        {
+            "description": "Conventional arms exports by around the year of 2006.",
+            "name": "conventional_arms_exports_us$_millions__2006_",
+            "type": "number"
+        },
+        {
+            "description": "Refer to the column 6 without a name.",
+            "name": "reference_6_",
+            "type": "string"
+        },
+        {
+            "description": "Conventional arms exports by around the year between 2002 and 2006.",
+            "name": "conventional_arms_exports_shared(%)__2002-06_",
+            "type": "number"
+        },
+        {
+            "description": "Total armed forces Thousands 2007 .",
+            "name": "total_armed_forces_thousands2007_",
+            "type": "number"
+        },
+        {
+            "description": "Refer to the column 7 without a name.",
+            "name": "reference_7_",
+            "type": "string"
+        },
+        {
+            "description": "Total armed forces for Index (1985 = 100) 2007 .",
+            "name": "total_armed_forces_index_(1985_=_100)2007_",
+            "type": "number"
+        }
+    ],
+    "name": "hdr_2007-2008_table_26",
+    "title": "HDR 2007-2008 Table 26",
+    "updated": "2020-05-26"
+}
